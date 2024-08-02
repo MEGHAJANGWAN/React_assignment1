@@ -1,0 +1,29 @@
+.counter-app-main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.counter-app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 20rem;
+  background-color: rgb(228, 83, 83);
+  width: 25rem;
+  border-radius: 20px;
+}
+.counter-app-btn-container > button {
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: 600;
+  font-size: .9rem;
+}
+.count-heading {
+  font-size: 3rem;
+  color: white;
+}
